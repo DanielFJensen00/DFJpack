@@ -4,18 +4,17 @@
 #'
 #' @format A data frame with 99 rows and 12 variables:
 #' \describe{
-#'   \item{dagi_id}{price in US dollars ($326--$18,823)}
-#'   \item{kode}{weight of the diamond (0.2--5.01)}
-#'   \item{navn}{quality of the cut (Fair, Good, Very Good, Premium, Ideal)}
-#'   \item{regionskode}{diamond colour, from D (best) to J (worst)}
-#'   \item{udenforkommuneinddeling}{a measurement of how clear the diamond is (I1 (worst), SI2,
-#'     SI1, VS2, VS1, VVS2, VVS1, IF (best))}
-#'   \item{regionsnavn}{length in mm (0--10.74)}
-#'   \item{ændret}{width in mm (0--58.9)}
-#'   \item{geo_ændret}{depth in mm (0--31.8)}
-#'   \item{geo_version}{total depth percentage = z / mean(x, y) = 2 * z / (x + y) (43--79)}
-#'   \item{visueltcenter_x}{width of top of diamond relative to widest point (43--95)}
-#'   \item{visueltcenter_y}{width of top of diamond relative to widest point (43--95)}
-#'   \item{geometry}{width of top of diamond relative to widest point (43--95)}
+#'   \item{dagi_id}{...}
+#'   \item{kode}{...}
+#'   \item{navn}{...}
+#'   \item{regionskode}{...}
+#'   \item{udenforkommuneinddeling}{...}
+#'   \item{regionsnavn}{...}
+#'   \item{ændret}{...}
+#'   \item{geo_ændret}{...}
+#'   \item{geo_version}{...}
+#'   \item{visueltcenter_x}{...}
+#'   \item{visueltcenter_y}{...}
+#'   \item{geometry}{...}
 #' }
 "DKkommuner"
