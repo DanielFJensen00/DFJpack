@@ -3,7 +3,7 @@
 #'
 #' @return A ggplot object.
 #' @importFrom ggplot2 ggplot theme element_blank element_rect coord_map geom_polygon aes update_geom_defaults geom_path ggtitle element_line element_rect element_text margin element_blank unit %+replace%
-#'
+#' @export
 #'
 #' @param base_family \code{character}, Font typen.
 #' @param base_size \code{numeric}, Font size.
