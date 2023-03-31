@@ -1,12 +1,17 @@
 Package: DFJpack
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Daniels R packages
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: person(given = "Daniel Fisker",
+           family = "Jensen",
+           role = c("aut", "cre"),
+           email = "Daniel.Fisker.Jensen@Gmail.com")
+Description: Dette er en R packages der skal indeholde forskellige nyttige koder, funktioner og data. Formaalet er til eget brug. 
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.3
+Depends: R (>= 4.0)
+Imports: 
+    ggplot2 (>= 3.1.0),
+Suggests: testthat

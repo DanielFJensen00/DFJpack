@@ -1,4 +1,22 @@
-NULL
+#' GGplot2 themes for KFUM-Spejderne
+#'
+#'
+#' @return A ggplot object.
+#' @importFrom ggplot2 ggplot theme element_blank element_rect coord_map geom_polygon aes update_geom_defaults geom_path ggtitle element_line element_rect element_text margin element_blank unit %+replace%
+#'
+#'
+#' @param base_family \code{character}, Font typen.
+#' @param base_size \code{numeric}, Font size.
+#'
+#'
+#' @keywords KFUM_SPEJDERNE_NORMAL
+#' @examples
+#' KFUM_SPEJDERNE_NORMAL(base_family = "", base_size = 11)
+#'
+#'
+
+
+
 KFUM_SPEJDERNE_NORMAL <- function(base_family = "",base_size = 11) {
 
   base_line_size <- 11 / 22
@@ -6,7 +24,7 @@ KFUM_SPEJDERNE_NORMAL <- function(base_family = "",base_size = 11) {
   half_line <- 11 / 2
   palette_pri_MG <- "#DBF2E5"
 
-  t <-  ggplot2::theme(
+  ggplot2::theme(
 
     line = ggplot2::element_line(colour = "#1D3C34",
                                  linewidth = base_line_size,
@@ -110,23 +128,21 @@ KFUM_SPEJDERNE_NORMAL <- function(base_family = "",base_size = 11) {
   )
 }
 
+
+
+
 KFUM_SPEJDERNE_NORMAL <- KFUM_SPEJDERNE_NORMAL
 
 
 
 KFUM_SPEJDERNE_TRANSPERENT <- function(base_family = "",base_size = 11) {
 
-  KFUM_SPEJDERNE_NORMAL(base_family = "",base_size = 100) %+replace%
-    base_line_size <- 11 / 22
-    base_rect_size <-  11 / 22
-    half_line <- 11 / 2
-    palette_pri_MG <- "#DBF2E5"
-
-    t =  ggplot2::theme(
+  KFUM_SPEJDERNE_NORMAL(base_family = "",base_size = 100) +
+    ggplot2::theme(
       legend.background = ggplot2::element_rect(fill='transparent',color = NA), #transparent legend bg
       legend.box.background = ggplot2::element_blank(), #transparent legend panel
       panel.background = ggplot2::element_rect(fill='transparent', color = NA), #transparent panel bg
-      plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
+      plot.background = ggplot2::element_rect(fill='transparent', color=NA), #transparent plot bg
 
       complete = TRUE
     )
