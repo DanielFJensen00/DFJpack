@@ -19,10 +19,5 @@ Collate:
   farver.R
   KFUM_themes.R
 Suggests:
-    dplyr,
-    RColorBrewer,
-    rmarkdown,
-    rpart,
-    sf (>= 0.7-3),
     testthat (>= 3.1.2),
 
