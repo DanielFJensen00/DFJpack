@@ -22,5 +22,6 @@ GGplot2 themes for KFUM-Spejderne
 \examples{
 KFUM_SPEJDERNE_NORMAL(base_family = "",base_size = 11)
 KFUM_SPEJDERNE_TRANSPERENT(base_family = "",base_size = 11)
+GG_TRANSPERENT()
 
 }
