@@ -25,6 +25,6 @@ A data frame with 99 rows and 12 variables:
 DKkommuner
 }
 \description{
-Dataset med følgende:
+Dataset med foelgende:
 }
 \keyword{datasets}

@@ -1,6 +1,6 @@
 #' Dataset med kortdata over DK kommuner
 #'
-#' Dataset med følgende:
+#' Dataset med foelgende:
 #'
 #' @format A data frame with 99 rows and 12 variables:
 #' \describe{
