@@ -276,8 +276,7 @@ GG_TRANSPERENT = function(){
   plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
   panel.grid.major = element_blank(), #remove major gridlines
   panel.grid.minor = element_blank(), #remove minor gridlines
-  legend.background = element_rect(fill='transparent'), #transparent legend bg
-  legend.box.background = element_rect(fill='transparent') #transparent legend panel
+  legend.background = element_rect(fill='transparent') #transparent legend bg
   )
 }
 
