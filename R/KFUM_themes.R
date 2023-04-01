@@ -10,22 +10,15 @@
 #' \item{`KFUM_SPEJDERNE_NORMAL()`}{.....}
 #'}
 #'
-#'
 #' @return A ggplot object.
+#'
 #' @import ggplot2
 #' @importFrom ggplot2 ggplot geom_point theme element_blank element_rect coord_map geom_polygon aes update_geom_defaults geom_path ggtitle element_line element_rect element_text margin element_blank unit %+replace%
-#'
+#' @import tidyverse
 #'
 #' @examples
-#' data = data.frame(
-#' x = c(1,2,3,4),
-#' y = c(2,3,4,5))
-#'
-#' p1 <- ggplot(data, aes(x,y)) +
-#'   geom_point()
-#'
-#' p1 + KFUM_SPEJDERNE_NORMAL(base_family = "",base_size = 11)
-#' p1 + KFUM_SPEJDERNE_TRANSPERENT(base_family = "",base_size = 11)
+#' KFUM_SPEJDERNE_NORMAL(base_family = "",base_size = 11)
+#' KFUM_SPEJDERNE_TRANSPERENT(base_family = "",base_size = 11)
 #'
 #' @name KFUM_tema
 #' @aliases NULL

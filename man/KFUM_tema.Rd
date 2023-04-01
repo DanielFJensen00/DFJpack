@@ -20,14 +20,7 @@ GGplot2 themes for KFUM-Spejderne
 }
 }
 \examples{
-data = data.frame(
-x = c(1,2,3,4),
-y = c(2,3,4,5))
-
-p1 <- ggplot(data, aes(x,y)) +
-  geom_point()
-
-p1 + KFUM_SPEJDERNE_NORMAL(base_family = "",base_size = 11)
-p1 + KFUM_SPEJDERNE_TRANSPERENT(base_family = "",base_size = 11)
+KFUM_SPEJDERNE_NORMAL(base_family = "",base_size = 11)
+KFUM_SPEJDERNE_TRANSPERENT(base_family = "",base_size = 11)
 
 }
