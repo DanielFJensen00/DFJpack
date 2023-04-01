@@ -2,17 +2,10 @@
 % Please edit documentation in R/farver.R
 \name{KFUM_PRI}
 \alias{KFUM_PRI}
-\title{Farvepalet for KFUM-Spejderne}
+\title{KFUM_PRI}
 \usage{
 KFUM_PRI()
 }
-\value{
-Farvepalette
-}
 \description{
-Farvepalet for KFUM-Spejderne
-}
-\examples{
-Kontrastfarve = KFUM_KONTRASTFARVER()
-
+KFUM_PRI
 }

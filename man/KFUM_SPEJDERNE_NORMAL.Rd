@@ -2,24 +2,10 @@
 % Please edit documentation in R/KFUM_themes.R
 \name{KFUM_SPEJDERNE_NORMAL}
 \alias{KFUM_SPEJDERNE_NORMAL}
-\title{GGplot2 themes for KFUM-Spejderne}
+\title{KFUM_SPEJDERNE_NORMAL}
 \usage{
 KFUM_SPEJDERNE_NORMAL(base_family = "", base_size = 11)
 }
-\arguments{
-\item{base_family}{\code{character}, Font typen.}
-
-\item{base_size}{\code{numeric}, Font size.}
-}
-\value{
-A ggplot object.
-}
 \description{
-GGplot2 themes for KFUM-Spejderne
+KFUM_SPEJDERNE_NORMAL
 }
-\examples{
-KFUM_SPEJDERNE_NORMAL(base_family = "", base_size = 11)
-
-
-}
-\keyword{KFUM_SPEJDERNE_NORMAL}

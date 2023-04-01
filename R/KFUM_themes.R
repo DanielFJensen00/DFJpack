@@ -1,20 +1,38 @@
 #' GGplot2 themes for KFUM-Spejderne
 #'
 #'
+#' @param base_size base font size, given in pts.
+#' @param base_family base font family
+#'
+#' @details
+#' \describe{
+#' \item{`KFUM_SPEJDERNE_TRANSPERENT()`}{.....}
+#' \item{`KFUM_SPEJDERNE_NORMAL()`}{.....}
+#'}
+#'
+#'
 #' @return A ggplot object.
-#' @importFrom ggplot2 ggplot theme element_blank element_rect coord_map geom_polygon aes update_geom_defaults geom_path ggtitle element_line element_rect element_text margin element_blank unit %+replace%
-#' @export
-#'
-#' @param base_family \code{character}, Font typen.
-#' @param base_size \code{numeric}, Font size.
+#' @import ggplot2
+#' @importFrom ggplot2 ggplot geom_point theme element_blank element_rect coord_map geom_polygon aes update_geom_defaults geom_path ggtitle element_line element_rect element_text margin element_blank unit %+replace%
 #'
 #'
-#' @keywords KFUM_SPEJDERNE_NORMAL
 #' @examples
-#' KFUM_SPEJDERNE_NORMAL(base_family = "", base_size = 11)
+#' data = data.frame(
+#' x = c(1,2,3,4),
+#' y = c(2,3,4,5))
 #'
+#' p1 <- ggplot(data, aes(x,y)) +
+#'   geom_point()
 #'
-
+#' p1 + KFUM_SPEJDERNE_NORMAL(base_family = "",base_size = 11)
+#' p1 + KFUM_SPEJDERNE_TRANSPERENT(base_family = "",base_size = 11)
+#'
+#' @name KFUM_tema
+#' @aliases NULL
+NULL
+#' @export
+#' @title KFUM_SPEJDERNE_NORMAL
+#' @rdname KFUM_SPEJDERNE_NORMAL
 
 
 KFUM_SPEJDERNE_NORMAL <- function(base_family = "",base_size = 11) {
@@ -133,7 +151,9 @@ KFUM_SPEJDERNE_NORMAL <- function(base_family = "",base_size = 11) {
 
 KFUM_SPEJDERNE_NORMAL <- KFUM_SPEJDERNE_NORMAL
 
-
+#' @export
+#' @title KFUM_SPEJDERNE_TRANSPERENT
+#' @rdname KFUM_SPEJDERNE_TRANSPERENT
 
 KFUM_SPEJDERNE_TRANSPERENT <- function(base_family = "",base_size = 11) {
 
