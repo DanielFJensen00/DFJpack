@@ -2,8 +2,8 @@
 #'
 #'
 #'
-#' @return Farvepalet
-#'
+#' @return Farvepalette
+#' @export
 #' @examples
 #' Kontrastfarve = KFUM_KONTRASTFARVER()
 #'

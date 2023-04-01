@@ -7,7 +7,7 @@
 KFUM_PRI()
 }
 \value{
-Farvepalet
+Farvepalette
 }
 \description{
 Farvepalet for KFUM-Spejderne
