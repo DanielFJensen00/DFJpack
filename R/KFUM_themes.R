@@ -150,7 +150,7 @@ KFUM_SPEJDERNE_NORMAL <- KFUM_SPEJDERNE_NORMAL
 
 KFUM_SPEJDERNE_TRANSPERENT <- function(base_family = "",base_size = 11) {
 
-  KFUM_SPEJDERNE_NORMAL(base_family = "",base_size = 100) +
+  KFUM_SPEJDERNE_NORMAL(base_family = base_family, base_size = base_size) +
     ggplot2::theme(
       legend.background = ggplot2::element_rect(fill='transparent',color = NA), #transparent legend bg
       legend.box.background = ggplot2::element_blank(), #transparent legend panel
