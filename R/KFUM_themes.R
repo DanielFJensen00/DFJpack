@@ -69,8 +69,7 @@ KFUM_SPEJDERNE_NORMAL <- function(base_family = "",base_size = 11) {
                                   debug = FALSE),
 
 
-    axis.line = ggplot2::element_line(colour =  "#1D3C34" #,size= 1
-                                      ),
+    axis.line = ggplot2::element_line(colour =  "#1D3C34" ,size= 1),
 
     axis.text = ggplot2::element_text(size = base_size*0.8, colour = "#1D3C34"),
     axis.text.x = ggplot2::element_text(margin = ggplot2::margin(t = 0.8 * half_line / 2), vjust = 1, colour = "#1D3C34"),
@@ -126,7 +125,7 @@ KFUM_SPEJDERNE_NORMAL <- function(base_family = "",base_size = 11) {
     plot.margin = ggplot2::margin(half_line, half_line, half_line, half_line),
 
 
-    strip.background = ggplot2::element_rect(fill = 'transparent', colour = "#1D3C34"),
+    strip.background = ggplot2::element_rect(fill = 'transparent', colour = "#1D3C34", size = 2),
     strip.clip = "inherit",
     strip.text = ggplot2::element_text(colour = "#1D3C34", size = ggplot2::rel(0.8), margin = ggplot2::margin(0.8 * half_line, 0.8 * half_line, 0.8 * half_line, 0.8 * half_line)),
     strip.text.y = ggplot2::element_text(angle = -90),
