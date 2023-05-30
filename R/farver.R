@@ -57,3 +57,26 @@ KFUM_SUPPLEMENT = function(){
   return(KFUM_SUPPLEMENT)
 }
 
+
+#' @export
+#' @title PARTIER
+#' @rdname FT_PARTIER
+#'
+
+FT_PARTIER = function(){
+  FT_PARTIER = data.frame(valg_bogstav = c("A","V","M","F","Æ","I","C","Ø","B","O","Å","D",NA,NA,NA,NA),
+                     valg_navn = c("Socialdemokratiet","Venstre, Danmarks Liberale Parti","Moderaterne",
+                                   "SF ‒ Socialistisk Folkeparti","Danmarksdemokraterne ‒ Inger Støjberg",
+                                   "Liberal Alliance","Det Konservative Folkeparti","Enhedslisten ‒ De Rød-Grønne",
+                                   "Radikale Venstre","Dansk Folkeparti","Alternativet","Nye Borgerlige",NA,NA,NA,NA),
+                     ft_bogstav = c("S","V", "M", "SF","DD","LA","KF","EL","RV","DF","ALT","NB","SIU","IA","SP","JF"),
+                     ft_navn = c("Socialdemokratiet","Venstre","Moderaterne",
+                                 "Socialistisk Folkeparti","Danmarksdemokraterne",
+                                 "Liberal Alliance","Det Konservative Folkeparti",
+                                 "Enhedslisten","Radikale Venstre","Dansk Folkeparti",
+                                 "Alternativet","Nye Borgerlige","Siumut","Inuit Ataqatigiit",
+                                 "Sambandsflokkurn","Javnaðarflokkurin"),
+                     parti_farve = c("#a82721","#254264","#b48cd2","#e07ea8","#7896d2","#3fb2be",
+                                     "#96b226","#e6801a","#733280","#eac73e","#2b8738","#127b7f",NA,NA,NA,NA))
+  return(FT_PARTIER)
+}
