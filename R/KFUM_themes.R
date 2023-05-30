@@ -69,7 +69,8 @@ KFUM_SPEJDERNE_NORMAL <- function(base_family = "",base_size = 11) {
                                   debug = FALSE),
 
 
-    axis.line = ggplot2::element_line(colour =  "#1D3C34",size= 1),
+    axis.line = ggplot2::element_line(colour =  "#1D3C34" #,size= 1
+                                      ),
 
     axis.text = ggplot2::element_text(size = base_size*0.8, colour = "#1D3C34"),
     axis.text.x = ggplot2::element_text(margin = ggplot2::margin(t = 0.8 * half_line / 2), vjust = 1, colour = "#1D3C34"),
