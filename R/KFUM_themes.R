@@ -97,6 +97,7 @@ KFUM_SPEJDERNE_NORMAL <- function(base_family = "",base_size = 11) {
     legend.title = ggplot2::element_text( colour = "#1D3C34",face = "bold",hjust = 0, size = base_size*1.25),
     legend.position = "bottom",
     legend.justification = "center",
+    legend.key = ggplot2::element_blank(),
     legend.box.margin =  ggplot2::margin(-10,-10,0,-0),
     legend.box.background = ggplot2::element_blank(),
     legend.box.spacing = ggplot2::unit(2 * half_line, "pt"),
@@ -124,7 +125,7 @@ KFUM_SPEJDERNE_NORMAL <- function(base_family = "",base_size = 11) {
     plot.margin = ggplot2::margin(half_line, half_line, half_line, half_line),
 
 
-    strip.background = ggplot2::element_rect(fill = "#1D3C34", colour = "#1D3C34"),
+    strip.background = ggplot2::element_rect(fill = 'transparent', colour = "#1D3C34"),
     strip.clip = "inherit",
     strip.text = ggplot2::element_text(colour = "#1D3C34", size = ggplot2::rel(0.8), margin = ggplot2::margin(0.8 * half_line, 0.8 * half_line, 0.8 * half_line, 0.8 * half_line)),
     strip.text.y = ggplot2::element_text(angle = -90),
