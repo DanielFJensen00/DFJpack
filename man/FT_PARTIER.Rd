@@ -3,6 +3,9 @@
 \name{FT_PARTIER}
 \alias{FT_PARTIER}
 \title{PARTIER}
+\source{
+https://www.dr.dk/nyheder/politik/folketingsvalg/resultater & https://www.ft.dk/da/partier/om-politiske-partier/partigruppernes-bogstaver
+}
 \usage{
 FT_PARTIER()
 }

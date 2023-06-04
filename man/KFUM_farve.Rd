@@ -14,6 +14,9 @@ Farvepalet for KFUM-Spejderne
 \item{`KFUM_SEKUND()`}{.....}
 \item{`KFUM_KONTRASTFARVER()`}{.....}
 \item{`KFUM_SUPPLEMENT()`}{.....}
+\item{`KFUM_GREEN_SCALE()`}{.....}
+\item{`KFUM_YELLOW_RED_SCALE()`}{.....}
+\item{`FT_PARTIER()`}{.....}
 }
 }
 \examples{

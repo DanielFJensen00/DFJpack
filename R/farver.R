@@ -9,6 +9,9 @@
 #' \item{`KFUM_SEKUND()`}{.....}
 #' \item{`KFUM_KONTRASTFARVER()`}{.....}
 #' \item{`KFUM_SUPPLEMENT()`}{.....}
+#' \item{`KFUM_GREEN_SCALE()`}{.....}
+#' \item{`KFUM_YELLOW_RED_SCALE()`}{.....}
+#' \item{`FT_PARTIER()`}{.....}
 #'}
 #'
 #' @examples
@@ -57,11 +60,34 @@ KFUM_SUPPLEMENT = function(){
   return(KFUM_SUPPLEMENT)
 }
 
+#' @export
+#' @title KFUM_GREEN_SCALE
+#' @rdname KFUM_GREEN_SCALE
+
+
+KFUM_GREEN_SCALE = function(){
+  KFUM_GREEN_SCALE = c("#71CC98","#169B62","#007749","#1D3C34")
+  return(KFUM_GREEN_SCALE)
+}
+
+
+#' @export
+#' @title KFUM_YELLOW_RED_SCALE
+#' @rdname KFUM_YELLOW_RED_SCALE
+
+
+KFUM_YELLOW_RED_SCALE = function(){
+  KFUM_YELLOW_RED_SCALE = c("#FFD94A","#FF9E1B","#DD5061","#C5003E")
+  return(KFUM_YELLOW_RED_SCALE)
+}
+
+
 
 #' @export
 #' @title PARTIER
 #' @rdname FT_PARTIER
-#'
+#' @source https://www.dr.dk/nyheder/politik/folketingsvalg/resultater & https://www.ft.dk/da/partier/om-politiske-partier/partigruppernes-bogstaver
+
 
 FT_PARTIER = function(){
   FT_PARTIER = data.frame(valg_bogstav = c("A","V","M","F","Æ","I","C","Ø","B","O","Å","D",NA,NA,NA,NA),
