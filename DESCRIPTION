@@ -6,7 +6,7 @@ Authors@R: person(given = "Daniel Fisker",
            family = "Jensen",
            role = c("aut", "cre"),
            email = "Daniel.Fisker.Jensen@Gmail.com")
-Description: Dette er en R packages der skal indeholde forskellige nyttige koder, funktioner og data. Formaalet er til eget brug. 
+Description: DFJpack er lavet til at kunne samle forskellige funktioner, data etc til R. Formaalet er eget brug. 
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
