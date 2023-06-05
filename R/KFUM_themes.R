@@ -125,12 +125,12 @@ KFUM_SPEJDERNE_NORMAL <- function(base_family = "",base_size = 11) {
     plot.margin = ggplot2::margin(half_line, half_line, half_line, half_line),
 
 
-    strip.background = ggplot2::element_rect(fill = 'transparent', colour = "#1D3C34", size = 2),
+    strip.background = ggplot2::element_blank(), #element_rect(fill = 'transparent', colour = "#1D3C34", size = 2),
     strip.clip = "inherit",
     strip.text = ggplot2::element_text(colour = "#1D3C34", size = ggplot2::rel(0.8), margin = ggplot2::margin(0.8 * half_line, 0.8 * half_line, 0.8 * half_line, 0.8 * half_line)),
     strip.text.y = ggplot2::element_text(angle = -90),
     strip.text.y.left = ggplot2::element_text(angle = 90),
-    strip.placement = "inside",
+    strip.placement = "outside",#"inside",
     strip.switch.pad.grid = ggplot2::unit(half_line / 2, "pt"),
     strip.switch.pad.wrap = ggplot2::unit(half_line / 2, "pt"),
 
