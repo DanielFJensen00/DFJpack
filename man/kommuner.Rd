@@ -5,7 +5,7 @@
 \alias{kommuner}
 \title{Data til kort - kommuner}
 \format{
-An object of class \code{SpatialPolygonsDataFrame} with 99 rows and 11 columns.
+An object of class \code{sf} (inherits from \code{data.frame}) with 99 rows and 12 columns.
 }
 \source{
 \url{https://api.dataforsyningen.dk/kommuner?format=geojson}, hentet d. 03/08/2023

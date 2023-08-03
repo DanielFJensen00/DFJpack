@@ -5,7 +5,7 @@
 \alias{opstillingskredse}
 \title{Data til kort - opstillingskredse}
 \format{
-An object of class \code{SpatialPolygonsDataFrame} with 92 rows and 18 columns.
+An object of class \code{sf} (inherits from \code{data.frame}) with 92 rows and 19 columns.
 }
 \source{
 \url{https://api.dataforsyningen.dk/opstillingskredse?format=geojson}, hentet d. 03/08/2023

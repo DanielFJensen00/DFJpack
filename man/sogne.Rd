@@ -5,7 +5,7 @@
 \alias{sogne}
 \title{Sognedata til kort}
 \format{
-An object of class \code{SpatialPolygonsDataFrame} with 2129 rows and 8 columns.
+An object of class \code{sf} (inherits from \code{data.frame}) with 2129 rows and 9 columns.
 }
 \source{
 \url{https://api.dataforsyningen.dk/sogne?format=geojson}, hentet d. 03/08/2023

@@ -5,7 +5,7 @@
 \alias{storkredse}
 \title{Data til kort - storkredse}
 \format{
-An object of class \code{SpatialPolygonsDataFrame} with 10 rows and 11 columns.
+An object of class \code{sf} (inherits from \code{data.frame}) with 10 rows and 12 columns.
 }
 \source{
 \url{https://api.dataforsyningen.dk/storkredse?format=geojson}, hentet d. 03/08/2023

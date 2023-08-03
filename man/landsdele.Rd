@@ -5,7 +5,7 @@
 \alias{landsdele}
 \title{Data til kort - landsdele}
 \format{
-An object of class \code{SpatialPolygonsDataFrame} with 11 rows and 10 columns.
+An object of class \code{sf} (inherits from \code{data.frame}) with 11 rows and 11 columns.
 }
 \source{
 \url{https://api.dataforsyningen.dk/landsdele?format=geojson}, hentet d. 03/08/2023

@@ -5,7 +5,7 @@
 \alias{valglandsdele}
 \title{Data til kort - valglandsdele}
 \format{
-An object of class \code{SpatialPolygonsDataFrame} with 3 rows and 7 columns.
+An object of class \code{sf} (inherits from \code{data.frame}) with 3 rows and 8 columns.
 }
 \source{
 \url{https://api.dataforsyningen.dk/valglandsdele?format=geojson}, hentet d. 03/08/2023

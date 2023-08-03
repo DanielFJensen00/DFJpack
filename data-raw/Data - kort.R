@@ -19,20 +19,33 @@ url_retskredse= "https://api.dataforsyningen.dk/retskredse?format=geojson"
 
 
 sogne <- rgdal::readOGR("data-raw/sogne.json")
+sogne = sf::st_as_sf(sogne)
 postnumre <- rgdal::readOGR("data-raw/postnumre.json")
+postnumre = sf::st_as_sf(postnumre)
 kommuner <- rgdal::readOGR("data-raw/kommuner.json")
+kommuner = sf::st_as_sf(kommuner)
 regioner <- rgdal::readOGR("data-raw/regioner.json")
+regioner = sf::st_as_sf(regioner)
 landsdele <- rgdal::readOGR("data-raw/landsdele.json")
+landsdele = sf::st_as_sf(landsdele)
 
 
 afstemningsomraader <- rgdal::readOGR("data-raw/afstemningsomraader.json")
+afstemningsomraader = sf::st_as_sf(afstemningsomraader)
 opstillingskredse <- rgdal::readOGR("data-raw/opstillingskredse.json")
+opstillingskredse = sf::st_as_sf(opstillingskredse)
 storkredse <- rgdal::readOGR("data-raw/storkredse.json")
+storkredse = sf::st_as_sf(storkredse)
 valglandsdele <- rgdal::readOGR("data-raw/valglandsdele.json")
+valglandsdele= sf::st_as_sf(valglandsdele)
+
 
 
 politikredse <- rgdal::readOGR("data-raw/politikredse.json")
+politikredse = sf::st_as_sf(politikredse)
 retskredse <- rgdal::readOGR("data-raw/retskredse.json")
+retskredse = sf::st_as_sf(retskredse)
+
 
 
 

@@ -5,7 +5,7 @@
 \alias{regioner}
 \title{Data til kort - regioner}
 \format{
-An object of class \code{SpatialPolygonsDataFrame} with 5 rows and 9 columns.
+An object of class \code{sf} (inherits from \code{data.frame}) with 5 rows and 10 columns.
 }
 \source{
 \url{https://api.dataforsyningen.dk/regioner?format=geojson}, hentet d. 03/08/2023

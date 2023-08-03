@@ -5,7 +5,7 @@
 \alias{afstemningsomraader}
 \title{Data til kort - afstemningsomraader}
 \format{
-An object of class \code{SpatialPolygonsDataFrame} with 1338 rows and 23 columns.
+An object of class \code{sf} (inherits from \code{data.frame}) with 1338 rows and 24 columns.
 }
 \source{
 \url{https://api.dataforsyningen.dk/afstemningsomraader?format=geojson}, hentet d. 03/08/2023

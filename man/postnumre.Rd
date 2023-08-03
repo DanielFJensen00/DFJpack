@@ -5,7 +5,7 @@
 \alias{postnumre}
 \title{Data til kort - postnumre}
 \format{
-An object of class \code{SpatialPolygonsDataFrame} with 1089 rows and 9 columns.
+An object of class \code{sf} (inherits from \code{data.frame}) with 1089 rows and 10 columns.
 }
 \source{
 \url{https://api.dataforsyningen.dk/postnumre?format=geojson}, hentet d. 03/08/2023

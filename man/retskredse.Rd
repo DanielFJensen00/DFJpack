@@ -5,7 +5,7 @@
 \alias{retskredse}
 \title{Data til kort - retskredse}
 \format{
-An object of class \code{SpatialPolygonsDataFrame} with 24 rows and 8 columns.
+An object of class \code{sf} (inherits from \code{data.frame}) with 24 rows and 9 columns.
 }
 \source{
 \url{https://api.dataforsyningen.dk/retskredse?format=geojson}, hentet d. 03/08/2023
