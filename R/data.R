@@ -144,3 +144,14 @@
 #' @examples
 #' data(retskredse)
 "retskredse"
+
+
+#' ISO standard for landekoder
+#' @docType data
+#' @usage data(landekoder)
+#' @keywords datasets
+#' @name landekoder
+#' @source \url{}
+#' @examples
+#' data(landekoder)
+"landekoder"
