@@ -61,6 +61,19 @@ KFUM_SUPPLEMENT = function(){
 }
 
 #' @export
+#' @title KFUM_FARVER
+#' @rdname KFUM_FARVER
+
+KFUM_FARVER = function(){
+  KFUM_FARVER = c("#71CC98","#1D3C34",
+                  "#007749","#169B62", "#AFA89D","#7A7D81","#D9D9D6",
+                  "#500778","#FFD94A","#A85959","#FF9E1B","#DD5061",
+                  "#7D5787","#00C0AA","#C5003E","#DDCBA4","#63513D","#1295D8")
+  return(KFUM_FARVER)
+}
+
+
+#' @export
 #' @title KFUM_GREEN_SCALE
 #' @rdname KFUM_GREEN_SCALE
 

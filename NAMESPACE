@@ -2,6 +2,7 @@
 
 export(FT_PARTIER)
 export(GG_TRANSPERENT)
+export(KFUM_FARVER)
 export(KFUM_GREEN_SCALE)
 export(KFUM_KONTRASTFARVER)
 export(KFUM_PRI)
