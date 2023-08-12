@@ -3,6 +3,9 @@
 #'
 #' @return Farvepalette
 #'
+#' @import scales
+#' @importFrom scales show_col
+#'
 #' @details
 #' \describe{
 #' \item{`KFUM_PRI()`}{.....}
@@ -119,3 +122,16 @@ FT_PARTIER = function(){
                                      "#96b226","#e6801a","#733280","#eac73e","#2b8738","#127b7f",NA,NA,NA,NA))
   return(FT_PARTIER)
 }
+
+
+#' @export
+#' @title vis_farver
+#' @rdname vis_farver
+
+vis_farver = function(farvelist){
+  farve_plot = show_col(farvelist)
+
+  return(farve_plot)
+}
+
+

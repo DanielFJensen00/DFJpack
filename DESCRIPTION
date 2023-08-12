@@ -14,7 +14,8 @@ RoxygenNote: 7.2.3
 Depends: R (>= 3.3)
 Imports: 
     ggplot2,
-    tidyverse
+    tidyverse,
+    scales
 Collate: 
   data.R
   farver.R
