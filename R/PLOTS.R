@@ -1,8 +1,10 @@
 #' GGplot2 funktioner for plot
 #'
 #'
-#' @param base_size base font size, given in pts.
-#' @param base_family base font family
+#' @param df description
+#' @param y description
+#' @param fill description
+#' @param hsize description
 #'
 #' @details
 #' \describe{
@@ -15,7 +17,8 @@
 #' @importFrom ggplot2 ggplot geom_col facet_wrap coord_polar xlim geom_point theme element_blank element_rect coord_map geom_polygon aes update_geom_defaults geom_path ggtitle element_line element_rect element_text margin element_blank unit %+replace%
 #' @import tidyverse
 #'
-#'
+#' @name PLOTS
+#' @aliases NULL
 
 #' @export
 #' @title plot.donut
