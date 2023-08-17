@@ -2,6 +2,9 @@
 % Please edit documentation in R/farver.R
 \name{KFUM_farve}
 \title{Farvepalet for KFUM-Spejderne}
+\arguments{
+\item{farvelist}{description}
+}
 \value{
 Farvepalette
 }
@@ -17,6 +20,7 @@ Farvepalet for KFUM-Spejderne
 \item{`KFUM_GREEN_SCALE()`}{.....}
 \item{`KFUM_YELLOW_RED_SCALE()`}{.....}
 \item{`FT_PARTIER()`}{.....}
+\item{`vis_farver`()}{....}
 }
 }
 \examples{

@@ -1,5 +1,6 @@
 #' Farvepalet for KFUM-Spejderne
 #'
+#' @param farvelist description
 #'
 #' @return Farvepalette
 #'
@@ -15,6 +16,7 @@
 #' \item{`KFUM_GREEN_SCALE()`}{.....}
 #' \item{`KFUM_YELLOW_RED_SCALE()`}{.....}
 #' \item{`FT_PARTIER()`}{.....}
+#' \item{`vis_farver`()}{....}
 #'}
 #'
 #' @examples
