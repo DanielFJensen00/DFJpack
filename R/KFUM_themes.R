@@ -8,6 +8,7 @@
 #' \describe{
 #' \item{`GG_TRANSPERENT()`}{.....}
 #' \item{`KFUM_SPEJDERNE_NORMAL()`}{.....}
+#' \item{`KFUM_void()`}{...}
 #'}
 #'
 #' @return A ggplot object.
@@ -150,13 +151,13 @@ KFUM_SPEJDERNE_NORMAL <- KFUM_SPEJDERNE_NORMAL
 #' @rdname KFUMtheme
 
 
-GG_TRANSPERENT = function(){
+GG_TRANSPERENT <-  function(){
   theme(
-  panel.background = element_rect(fill='transparent'), #transparent panel bg
-  plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
-  panel.grid.major = element_blank(), #remove major gridlines
-  panel.grid.minor = element_blank(), #remove minor gridlines
-  legend.background = element_rect(fill='transparent') #transparent legend bg
+  panel.background = ggplot2::element_rect(fill='transparent'), #transparent panel bg
+  plot.background = ggplot2::element_rect(fill='transparent', color=NA), #transparent plot bg
+  panel.grid.major = ggplot2::element_blank(), #remove major gridlines
+  panel.grid.minor = ggplot2::element_blank(), #remove minor gridlines
+  legend.background = ggplot2::element_rect(fill='transparent') #transparent legend bg
   )
 }
 
@@ -165,3 +166,24 @@ GG_TRANSPERENT = function(){
 
 GG_TRANSPERENT <- GG_TRANSPERENT
 
+
+#' @export
+#' @title KFUM_void
+#' @rdname KFUMtheme
+
+
+KFUM_void <-  function(){
+  theme(
+    plot.background = ggplot2::element_rect("white"),
+    line = ggplot2::element_blank(),
+    panel.grid = ggplot2::element_blank(),
+    axis.title = ggplot2::element_blank(),
+    axis.ticks = ggplot2::element_blank(),
+    axis.text = ggplot2::element_blank()
+    )
+}
+
+#' @export
+#' @rdname KFUMtheme
+
+KFUM_void <- KFUM_void

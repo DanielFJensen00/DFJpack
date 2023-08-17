@@ -3,6 +3,7 @@
 \name{KFUMtheme}
 \alias{KFUM_SPEJDERNE_NORMAL}
 \alias{GG_TRANSPERENT}
+\alias{KFUM_void}
 \title{GGplot2 themes for KFUM-Spejderne}
 \usage{
 KFUM_SPEJDERNE_NORMAL(base_family = "", base_size = 11)
@@ -12,6 +13,10 @@ KFUM_SPEJDERNE_NORMAL(base_family = "", base_size = 11)
 GG_TRANSPERENT()
 
 GG_TRANSPERENT()
+
+KFUM_void()
+
+KFUM_void()
 }
 \arguments{
 \item{base_family}{base font family}
@@ -27,11 +32,14 @@ GGplot2 themes for KFUM-Spejderne
 KFUM_SPEJDERNE_NORMAL
 
 GG_TRANSPERENT
+
+KFUM_void
 }
 \details{
 \describe{
 \item{`GG_TRANSPERENT()`}{.....}
 \item{`KFUM_SPEJDERNE_NORMAL()`}{.....}
+\item{`KFUM_void()`}{...}
 }
 }
 \examples{

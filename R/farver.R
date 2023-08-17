@@ -29,7 +29,7 @@ NULL
 #' @rdname KFUM_PRI
 
 KFUM_PRI <- function(){
-  KFUM_PRI = c("#71CC98","#1D3C34")
+  KFUM_PRI <-  c("#71CC98","#1D3C34")
   return(KFUM_PRI)
 }
 
@@ -39,7 +39,7 @@ KFUM_PRI <- function(){
 #' @rdname KFUM_SEKUND
 
 KFUM_SEKUND <- function(){
-KFUM_SEKUND = c("#007749","#169B62", "#AFA89D","#7A7D81","#D9D9D6")
+KFUM_SEKUND <-  c("#007749","#169B62", "#AFA89D","#7A7D81","#D9D9D6")
 return(KFUM_SEKUND)
 }
 
@@ -49,8 +49,8 @@ return(KFUM_SEKUND)
 #' @title KFUM_KONTRASTFARVER
 #' @rdname KFUM_KONTRASTFARVER
 
-KFUM_KONTRASTFARVER = function(){
-  KFUM_KONTRASTFARVER = c("#500778","#FFD94A","#A85959","#FF9E1B","#DD5061")
+KFUM_KONTRASTFARVER <-  function(){
+  KFUM_KONTRASTFARVER <-  c("#500778","#FFD94A","#A85959","#FF9E1B","#DD5061")
   return(KFUM_KONTRASTFARVER)
 }
 
@@ -58,8 +58,8 @@ KFUM_KONTRASTFARVER = function(){
 #' @title KFUM_SUPPLEMENT
 #' @rdname KFUM_SUPPLEMENT
 
-KFUM_SUPPLEMENT = function(){
-  KFUM_SUPPLEMENT = c("#7D5787","#00C0AA","#C5003E","#DDCBA4","#63513D","#1295D8")
+KFUM_SUPPLEMENT <-  function(){
+  KFUM_SUPPLEMENT <-  c("#7D5787","#00C0AA","#C5003E","#DDCBA4","#63513D","#1295D8")
   return(KFUM_SUPPLEMENT)
 }
 
@@ -67,8 +67,8 @@ KFUM_SUPPLEMENT = function(){
 #' @title KFUM_FARVER
 #' @rdname KFUM_FARVER
 
-KFUM_FARVER = function(){
-  KFUM_FARVER = c("#71CC98","#1D3C34",
+KFUM_FARVER <-  function(){
+  KFUM_FARVER <-  c("#71CC98","#1D3C34",
                   "#007749","#169B62", "#AFA89D","#7A7D81","#D9D9D6",
                   "#500778","#FFD94A","#A85959","#FF9E1B","#DD5061",
                   "#7D5787","#00C0AA","#C5003E","#DDCBA4","#63513D","#1295D8")
@@ -81,8 +81,8 @@ KFUM_FARVER = function(){
 #' @rdname KFUM_GREEN_SCALE
 
 
-KFUM_GREEN_SCALE = function(){
-  KFUM_GREEN_SCALE = c("#71CC98","#169B62","#007749","#1D3C34")
+KFUM_GREEN_SCALE <-  function(){
+  KFUM_GREEN_SCALE <-  c("#71CC98","#169B62","#007749","#1D3C34")
   return(KFUM_GREEN_SCALE)
 }
 
@@ -92,8 +92,8 @@ KFUM_GREEN_SCALE = function(){
 #' @rdname KFUM_YELLOW_RED_SCALE
 
 
-KFUM_YELLOW_RED_SCALE = function(){
-  KFUM_YELLOW_RED_SCALE = c("#FFD94A","#FF9E1B","#DD5061","#C5003E")
+KFUM_YELLOW_RED_SCALE <-  function(){
+  KFUM_YELLOW_RED_SCALE <-  c("#FFD94A","#FF9E1B","#DD5061","#C5003E")
   return(KFUM_YELLOW_RED_SCALE)
 }
 
@@ -105,8 +105,8 @@ KFUM_YELLOW_RED_SCALE = function(){
 #' @source https://www.dr.dk/nyheder/politik/folketingsvalg/resultater & https://www.ft.dk/da/partier/om-politiske-partier/partigruppernes-bogstaver
 
 
-FT_PARTIER = function(){
-  FT_PARTIER = data.frame(valg_bogstav = c("A","V","M","F","Æ","I","C","Ø","B","O","Å","D",NA,NA,NA,NA),
+FT_PARTIER <-  function(){
+  FT_PARTIER <-  data.frame(valg_bogstav = c("A","V","M","F","Æ","I","C","Ø","B","O","Å","D",NA,NA,NA,NA),
                      valg_navn = c("Socialdemokratiet","Venstre, Danmarks Liberale Parti","Moderaterne",
                                    "SF ‒ Socialistisk Folkeparti","Danmarksdemokraterne ‒ Inger Støjberg",
                                    "Liberal Alliance","Det Konservative Folkeparti","Enhedslisten ‒ De Rød-Grønne",
@@ -128,8 +128,8 @@ FT_PARTIER = function(){
 #' @title vis_farver
 #' @rdname vis_farver
 
-vis_farver = function(farvelist){
-  farve_plot = show_col(farvelist)
+vis_farver <-  function(farvelist){
+  farve_plot <-  show_col(farvelist)
 
   return(farve_plot)
 }
