@@ -15,12 +15,12 @@ plot_donut(df, y, fill, hsize = 3)
 \item{hsize}{description}
 }
 \value{
-A ggplot object.
+Et donut plot.
 }
 \description{
 GGplot2 funktioner for plot
 
-plot.donut
+Donut plot
 }
 \details{
 \describe{
