@@ -28,7 +28,7 @@ NULL
 #' @rdname Plots
 #' @aliases NULL
 
-plot.donut <-  function(df,y,fill,hsize=3){
+plot_donut <-  function(df,y,fill,hsize=3){
   plot <- ggplot(df, aes(x=hsize, y = {{y}},fill={{fill}}))+
     geom_col(color="white", position = "fill") +
     coord_polar(theta = "y", start=0,clip="on")+

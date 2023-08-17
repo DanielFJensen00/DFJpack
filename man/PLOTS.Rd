@@ -3,7 +3,7 @@
 \name{Plots}
 \title{GGplot2 funktioner for plot}
 \usage{
-\method{plot}{donut}(df, y, fill, hsize = 3)
+plot_donut(df, y, fill, hsize = 3)
 }
 \arguments{
 \item{df}{description}
