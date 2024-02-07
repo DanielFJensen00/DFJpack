@@ -1,2 +1,2 @@
 # DFJpack
-Dette er en R packages med forskellige kode jeg bruger
+Dette er blot en pakke med forskellige funktioner, data samt andet jeg regelmæssigt bruger eller har brug for flere gange. 
